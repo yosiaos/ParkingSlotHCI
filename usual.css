@@ -1,0 +1,383 @@
+body{
+    background: whitesmoke;
+    color: rgb(15, 1, 27);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navigation */
+.nav-inter{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    padding-top: 4rem;
+
+    justify-content: center;
+    background-color: rgb(66, 73, 165);
+    z-index: 100;
+    white-space: pre;
+}
+
+.link-inter{
+    display: flex;
+    position: static;
+
+    gap: 10rem;
+    text-decoration: none;
+    padding: 1rem;
+    padding-right: 7rem;
+}
+
+.nav-id{
+   color: rgb(15, 1, 27);
+   background-color: rgb(184, 170, 95);
+   text-decoration: none;
+
+   padding-left: 2%;
+   padding-right: 2%;
+   border-radius: 1rem;
+}
+
+
+
+
+
+.nav-inter2{
+    position: fixed;
+    display: flex;
+    width: 70vw;
+
+    justify-content: center;
+    z-index: 150;
+    white-space: pre;
+    align-items: center;
+}
+
+.link-inter2{
+    display: flex;
+    position: static;
+    
+    gap: 16rem;
+    text-decoration: none;
+    padding: 2rem;
+    padding-right: 10rem;
+    padding-right: 30rem;
+    padding-left: 33rem;
+}
+
+.name{
+    color: rgb(15, 1, 27);
+    background-color: rgb(184, 170, 95);
+    text-decoration: none;
+ 
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 1rem;
+ }
+
+ .search{
+    width: 60vh;
+ }
+
+.imagelos{
+    height: 7vh;
+    width: 7vh;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+
+
+
+
+.home-inter{
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.home-title{
+    font-size: 12rem;
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.home-title2{
+    font-size: 3.5rem;
+    padding-bottom: 15rem;
+    text-align: center;
+}
+
+
+
+
+.location-inter{
+    padding-top: 35rem;
+    padding-bottom: 35rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-margrin{
+    position: absolute;
+}
+
+.location-box{
+    font-size: 2rem;
+    display: flex;
+    background-color: lightgrey;
+    width: 1000px;
+    padding: 50px;
+    margin: 3px;
+    border: 0;
+}
+
+.enlarge-button:hover{
+    transform: scale(1.01);
+}
+
+.location-box2{
+    font-size: 1.5rem;
+    display: flex;
+    background-color: rgb(184, 170, 95);
+    width: 1000px;
+    padding: 15px;
+    margin: 3px;
+    justify-content: center;
+}
+
+
+.parking-inter {
+    padding-top: 35rem;
+    padding-bottom: 35rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parking-margrin {
+    position: absolute;
+}
+
+.parking-box2 {
+    font-size: 1.5rem;
+    display: flex;
+    background-color: rgb(184, 170, 95);
+    width: 1300px;
+    padding: 15px;
+    margin: 3px;
+    justify-content: center;
+}
+
+/*parking slot*/
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.slot {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filled {
+    background-color: gray;
+}
+
+.selected {
+    background-color: orange;
+}
+
+.empty {
+    background-color: rgb(7, 174, 7);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.confirm-btn:disabled {
+    background-color: rgb(108, 107, 107);
+    cursor: not-allowed;
+}
+
+
+
+
+.notif-inter{
+    padding-top: 35rem;
+    padding-bottom: 35rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notif-margrin{
+    position: absolute;
+}
+
+.notif-box2{
+    font-size: 1.5rem;
+    display: flex;
+    background-color: rgb(184, 170, 95);
+    width: 1000px;
+    padding: 15px;
+    margin: 3px;
+    justify-content: center;
+}
+
+.notif-box{
+    font-size: 2rem;
+    display: flex;
+    background-color: lightgrey;
+    width: 1000px;
+    height: 500px;
+    padding: 15px;
+    margin: 3px;
+    justify-content: center;
+}
+
+
+
+
+
+
+.imagelos2{
+    display: flex;
+    height: 10vh;
+    width: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting-inter{
+    padding-top: 35rem;
+    padding-bottom: 35rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting-margrin{
+    position: absolute;
+}
+
+.setting-margrin2{
+    bottom: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.setting-box2{
+    position: relative;
+    display: flex;
+    background-color: rgb(184, 170, 95);
+    width: 1000px;
+    height: 200px;
+    padding: 15px;
+    margin: 3px;
+    justify-content: center;
+}
+
+.setting-box{
+    position: relative;
+    display: flex;
+    background-color: lightgrey;
+    width: 1000px;
+    height: 440px;
+    padding: 15px;
+    margin: 3px;
+}
+
+.setting-text3{
+    font-size: 2rem;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+.setting-text2{
+    font-size: 2rem;
+    display: flex;
+    padding: 5px;
+    margin: 1px;
+    justify-content: center;
+}
+
+.setting-text{
+    font-size: 1rem;
+    display: flex;
+    padding: 5px;
+    margin: 1px;
+    justify-content: center;
+}
+
+.setting-button{
+    font-size: 2rem;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(184, 170, 95);
+    border-color: lightgrey;
+    width: 200px;
+    height: 50px;
+    border-radius: 1rem;
+    justify-content: center;
+}

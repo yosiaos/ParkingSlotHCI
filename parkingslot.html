@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Slot Page</title>
+    <link rel="stylesheet" href="usual.css">
+</head>
+<body>
+    
+    <header class="nav-inter">
+        <nav class="link-inter">
+            <a class="nav-id" href="index.html">Home</a>
+            <a class="nav-id" href="location.html">Location</a>
+            <a class="nav-id" href="parkingslot.html">Parking Slot</a>
+            <a class="nav-id" href="notification.html">Notification</a>
+            <a class="nav-id" href="setting.html">Profile</a>
+        </nav>
+    </header>
+
+    <header class="nav-inter2">
+        <nav class="link-inter2">
+            <a class="name">Mr Kenshi</a>
+            <input type="text" class="search" placeholder="                                 Search">
+        </nav>
+
+        <img src="Component 2.png" alt="Icon" class="imagelos">
+    </header>
+
+    <section id="parking" class="parking-inter">
+        <div class="parking-margrin">
+            <p class="parking-box2">Parking Slot</p>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="slot empty" id="A1">A1</div>
+                    <div class="slot empty" id="A2">A2</div>
+                    <div class="slot empty" id="A3">A3</div>
+                    <div class="slot empty" id="A4">A4</div>
+                </div>
+
+                <div class="row">
+                    <div class="slot empty" id="B1">B1</div>
+                    <div class="slot empty" id="B2">B2</div>
+                    <div class="slot empty" id="B3">B3</div>
+                    <div class="slot empty" id="B4">B4</div>
+                </div>
+                <button id="confirm-btn" class="confirm-btn" disabled>Konfirmasi pilihan</button>
+            </div>
+        
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <p id="popup-text"></p>
+                    <button id="yes-btn">Ya</button>
+                    <button id="no-btn">Tidak</button>
+                </div>
+            </div>
+
+            <br><br>
+            
+            <p class="parking-box2">Basement</p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
